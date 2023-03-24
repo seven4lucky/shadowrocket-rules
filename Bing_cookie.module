@@ -1,5 +1,5 @@
-#!name=Cookie获取
-#!desc=自用Cookie获取
+#!name=Bing Cookie
+#!desc=Cookie获取
 
 [Script]
 
@@ -8,5 +8,4 @@ Bing积分cookie = requires-body=0,type=http-request,pattern=https:\/\/rewards\.
 
 
 [MITM]
-
 hostname = %APPEND% rewards.bing.com
